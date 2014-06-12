@@ -1,5 +1,5 @@
 //
-//  maxLine.c
+//  maxLine2.c
 //  Learning C
 //
 //  Created by Erkin Otles on 6/12/14.
@@ -8,6 +8,10 @@
 
 #include <stdio.h>
 #define MAXLINE 1000 //max input size
+
+int max;
+char line[MAXLINE];
+char longest[MAXLINE];
 
 int my_getline(char line[], int maxline);
 void copy(char to[], char from[]);
