@@ -6,10 +6,23 @@
 	objectVersion = 46;
 	objects = {
 
+/* Begin PBXFileReference section */
+		68A40C4D194912AF00A5EE5C /* hello.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = hello.c; sourceTree = "<group>"; };
+		68A40C4E1949175E00A5EE5C /* temp.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = temp.c; sourceTree = "<group>"; };
+		68A40C4F19491C8C00A5EE5C /* fileCopy.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = fileCopy.c; sourceTree = "<group>"; };
+		68A40C5019491F1400A5EE5C /* power.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = power.c; sourceTree = "<group>"; };
+		68A40C511949FB3F00A5EE5C /* maxLine.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = maxLine.c; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
 /* Begin PBXGroup section */
 		68A40C461949129000A5EE5C = {
 			isa = PBXGroup;
 			children = (
+				68A40C511949FB3F00A5EE5C /* maxLine.c */,
+				68A40C5019491F1400A5EE5C /* power.c */,
+				68A40C4F19491C8C00A5EE5C /* fileCopy.c */,
+				68A40C4D194912AF00A5EE5C /* hello.c */,
+				68A40C4E1949175E00A5EE5C /* temp.c */,
 			);
 			sourceTree = "<group>";
 		};
@@ -21,7 +34,7 @@
 			attributes = {
 				LastUpgradeCheck = 0510;
 			};
-			buildConfigurationList = 68A40C4A1949129000A5EE5C /* Build configuration list for PBXProject "Learning C" */;
+			buildConfigurationList = 68A40C4A1949129000A5EE5C /* Build configuration list for PBXProject "Learning-C" */;
 			compatibilityVersion = "Xcode 3.2";
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
@@ -52,7 +65,7 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		68A40C4A1949129000A5EE5C /* Build configuration list for PBXProject "Learning C" */ = {
+		68A40C4A1949129000A5EE5C /* Build configuration list for PBXProject "Learning-C" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				68A40C4B1949129000A5EE5C /* Debug */,
